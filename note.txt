@@ -1,0 +1,22 @@
+
+menu : latiha, main
+jenis: navigasi, number. masing - masing ada bagian
+
+main{
+    properti: time, skor
+
+    level : memeiliki batas waktu 5 detik. waktu abix => game over
+    setiap abis ganti level ganti ke next level yang makin banyak
+    skor disimpan ke high score dengan local storage
+    jika semua level abis. kembali ke menu awal.
+}
+
+# tampilan
+awal : random 5 key. melayang layang.
+bentuk key: balon, transparan, bacground color random, border color random
+
+# page
+navigasi
+jenis
+practicse hall
+game hall

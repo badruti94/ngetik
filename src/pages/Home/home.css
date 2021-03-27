@@ -1,0 +1,8 @@
+.key-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .home{
+      margin: 2% 10%;
+  }
