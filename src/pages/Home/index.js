@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Key } from '../../components/atoms'
 import './home.css'
-import {allKey, nav1} from '../../assets/key-play'
+import {allKey, char_kanan1, enter_dkk1, kurung1, nav1} from '../../assets/key-play'
 
 const Home = () => {
     const [data, setData] = useState(nav1)
@@ -18,6 +18,11 @@ const Home = () => {
     return (
         <div className="home" >
             <button onClick={()=>setData(allKey)} >all key</button>
+            
+            <button onClick={()=>setData(nav1)} >nav1</button>
+            <button onClick={()=>setData(char_kanan1)} >char_kanan1</button>
+            <button onClick={()=>setData(enter_dkk1)} >enter_dkk1</button>
+            <button onClick={()=>setData(kurung1)} >kurung1</button>
             <div className="key-wrapper" >
                 {KeyWrapper}
             </div>

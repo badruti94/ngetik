@@ -20,3 +20,6 @@ navigasi
 jenis
 practicse hall
 game hall
+
+#
+pake animate css buat efek key hancur

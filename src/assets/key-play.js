@@ -50,6 +50,7 @@ const allKey = [
     'ArrowUp'
 ];
 
+
 const nav1 = [
     'Home',
     'PageUp',
@@ -61,4 +62,31 @@ const nav1 = [
     'ArrowRight',
 ]
 
-export {allKey, nav1}
+const char_kanan1 = [
+    ':',
+    ';',
+    '"',
+    "'",
+    ',',
+    '<',
+    '.',
+    '>',
+    '?',
+    '/',
+    '`',
+]
+
+const enter_dkk1 = [
+    'Backspace',
+    'Enter',
+    'Delete',
+    
+]
+
+const kurung1 = [
+    '(',
+    '{',
+    '[',
+];
+
+export {allKey, nav1, char_kanan1, enter_dkk1, kurung1}
